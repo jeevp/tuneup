@@ -40,7 +40,7 @@ import java.util.Collections;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String CLIENT_ID = "af89128d4bf346329b2e19c6915d7062";
+    private static final String CLIENT_ID = ""; // removed for safety
     private static final String REDIRECT_URI = "com.jeev.tuneup://callback";
 
     private TextView username;
