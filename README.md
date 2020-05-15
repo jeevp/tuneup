@@ -2,7 +2,7 @@
 
 TuneUp is a song quiz Android app built in Java with the Spotify API. TuneUp lets users guess the names of their favorite songs, discover new ones, and add them directly to their Spotify library.
 
-[Video demo of TuneUp](https://drive.google.com/file/d/1Cr9sMPeckgIUKMJUvbpnooIHUutwZNw_/view?usp=sharing).
+[Video demo of TuneUp](https://drive.google.com/file/d/1Cr9sMPeckgIUKMJUvbpnooIHUutwZNw_/view?usp=sharing) (listen with volume)
 
 [Slideshow presentation](CSC-207_Project_TuneUp.pdf)
 
