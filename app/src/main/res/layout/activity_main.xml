@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="0"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTag" />
+
+    <TextView
+        android:id="@+id/roundTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Round"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/round"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_regular"
+        android:text="30"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTag" />
+
+    <TextView
+        android:id="@+id/timerTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Time"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="0"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTag" />
+
+    <TextView
+        android:id="@+id/scoreTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Score"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/score"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/guess2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:height="120dp"
+        android:background="#183A7E"
+        android:fontFamily="@font/inter_medium"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintBottom_toTopOf="@+id/guess3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/guess3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:height="120dp"
+        android:background="#204896"
+        android:fontFamily="@font/inter_medium"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintBottom_toTopOf="@+id/guess4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/guess4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:height="120dp"
+        android:background="#2754AF"
+        android:fontFamily="@font/inter_medium"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/guess1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:height="120dp"
+        android:background="#132E65"
+        android:fontFamily="@font/inter_medium"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintBottom_toTopOf="@+id/guess2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/gameCountdownTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Quiz begins in"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameCountdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/gameCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00111C32"
+        android:fontFamily="@font/inter_bold"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
